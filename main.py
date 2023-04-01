@@ -42,7 +42,7 @@ def Widgets():
                       text="Navegar",
                       command=Browse,
                       width=10,
-                      bg="#05E8E0")
+                      bg="#808080")
     browse_B.grid(row=2,
                   column=2,
                   pady=1,
@@ -52,7 +52,7 @@ def Widgets():
                         text="Download",
                         command=Download,
                         width=20,
-                        bg="#05E8E0")
+                        bg="#808080")
     Download_B.grid(row=3,
                     column=1,
                     pady=3,
